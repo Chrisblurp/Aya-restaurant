@@ -1,0 +1,77 @@
+*{
+    margin: none;
+    width: none;
+}
+body{
+font-family: 'Courier New', Courier, monospace;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar{
+    background-color: brown;
+    color: white;
+    height: 50px;
+    
+}
+.service-brand{
+    text-align: right !important;
+}
+.top-container{
+    color: whitesmoke;
+    text-align: center;
+    background-image: url(./asset/home-2.jpeg);
+    height: 700px;
+    padding-bottom: 100px;
+
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+.middle-container img{
+    height: 300px;
+    width: 450px;
+    
+}
+.middle-container{
+    display: flex;
+}
+h3{
+    text-align: center;
+    color: red;
+}
+#service{
+display: flex;
+
+height: 250px;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+#contact-us form{
+    display: grid;
+    width: 25%;
+}
+
+#contact-us {
+    display: flex;
+    justify-content: center;
+    
+}
+.testimonial-section h4{
+    text-align: center;
+}
+.testimonial-section p{
+    text-align: center;
+
+}
+footer{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin: auto;
+    width: 100%;
+}
